@@ -1,0 +1,13 @@
+#sliderContainer {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    /*overflow: hidden;*/
+}
+
+#sliderContainer div {
+    /*display: block;*/
+    position: absolute;
+    /*float: left;*/
+}
