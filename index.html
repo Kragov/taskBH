@@ -9,13 +9,20 @@
 </head>
 <body>
    <div id="slider">
-        <div id="sliderContainer">            
-            <a class="prev btn" href="#">--</a>
-            <a class="next btn" href="#">++</a>
-            <div class="slide 1"><img src="./pics/cat1.jpg" alt=""></div>
-            <div class="slide 2"><img src="./pics/cat2.jpg" alt=""></div>
-            <div class="slide 3"><img src="./pics/cat3.jpg" alt=""></div>
+        <div>            
+            <a id = "prev" class = "btn" href="#">--</a>
+            <a id = "next" class="btn" href="#">++</a>
+            <div id="sliderContainer">
+            	<div class="slide 1"><img src="./pics/cat1.jpg" alt="cat1"></div>
+            	<div class="slide 2"><img src="./pics/cat2.jpg" alt="cat2"></div>
+            	<div class="slide 3"><img src="./pics/cat3.jpg" alt="cat3"></div>
+			</div>
+        </div>    
+        <div class="butn">
+        	<input type="checkbox" id="looper" checked>
+        	<label for="looper">Loop pictures</label>
         </div>
+        
     </div>
 </body>
 </html>

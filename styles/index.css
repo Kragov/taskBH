@@ -1,8 +1,6 @@
-.slider {
+#slider {
+	width: 800px;
     margin: 0 auto;
-    position: relative;
-    width: 800px;
-    height: 600px;
 }
 
 #sliderContainer {
@@ -14,9 +12,7 @@
 }
 
 #sliderContainer div {
-    /*display: block;*/
     position: absolute;
-    /*float: left;*/
 }
 
 .btn {
@@ -31,8 +27,24 @@
     z-index: 1;
     position: absolute;
     text-decoration: none;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
-.next {
+.btn:hover {
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#next {
     margin-left: 768px;
+}
+
+.butn {
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
 }
